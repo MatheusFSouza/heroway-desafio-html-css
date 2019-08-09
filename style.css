@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i&display=swap');
+
+* {
+    padding:0;
+    margin:0;
+ }
+
+ .masthead {
+    width: 100%;
+    height: 900px;
+    background-image:url(./imagens/bg-masthead.jpg);
+    background-position: 0px -100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imagens {
+    width: 300px;
+    height: 200px;
+}
+
+.callout {
+    width: 100%;
+    height: 900px;
+    background-image:url(./imagens/bg-callout.jpg);
+    background-position: 0px -100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo {
+  font-size: 500%;
+}
+
+.botao {
+  display: flex;
+  align-items: center;
+}
+
+.botao a, .botao a:visited {  
+font: bold 12px/24px Source Sans Pro;	
+padding:0px;
+text-decoration: none;
+text-align:center;	
+color:#fff;
+background: #1675DD url('botao_link.gif') no-repeat 
+center center;	
+width:120px;  
+height:40px;
+border-radius: 3px;	
+display: center;
+justify-content: center;
+align-items: center; 	
+}
+
+.botao a:hover { 
+  background: #1675DD url('botao_hover.gif') no-repeat 
+  center center;
+  color:#999;
+}
+
+
+
+.texto {
+    font-family: Source Sans Pro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .partedois {
+    background-color: white;
+    width: 100%;
+    height: 400px;
+  }
+
+  .partetres {
+    background-color: #1675DD;
+    width: 100%;
+    height: 400px;
+  }
+
+  .baixo {
+    background-color: #1675DD;
+    width: 100%;
+    height: 400px;
+  }
+
+  .links {
+    background-color: white;
+    width: 100%;
+    height: 400px;
+  }
+
+  .footer {
+    background-color: black;
+    width: 100%;
+    height: 10px;
+  }
+
