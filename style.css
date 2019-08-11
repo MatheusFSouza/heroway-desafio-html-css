@@ -1,100 +1,257 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i&display=swap');
-
 * {
-    padding:0;
-    margin:0;
- }
+    padding: 0;
+    margin: 0;
+}
 
- .masthead {
+.masthead {
     width: 100%;
-    height: 900px;
-    background-image:url(./imagens/bg-masthead.jpg);
-    background-position: 0px -100px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(./imagens/bg-masthead.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .imagens {
-    width: 300px;
-    height: 200px;
+    width: 500px;
+    height: 300px;
 }
 
 .callout {
     width: 100%;
-    height: 900px;
-    background-image:url(./imagens/bg-callout.jpg);
-    background-position: 0px -100px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(./imagens/bg-callout.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .titulo {
-  font-size: 500%;
+    font-family: Source Sans Pro;
+    display: flex;
+    justify-content: center;
+    font-size: 500%;
 }
 
 .botao {
-  display: flex;
-  align-items: center;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
-.botao a, .botao a:visited {  
-font: bold 12px/24px Source Sans Pro;	
-padding:0px;
-text-decoration: none;
-text-align:center;	
-color:#fff;
-background: #1675DD url('botao_link.gif') no-repeat 
-center center;	
-width:120px;  
-height:40px;
-border-radius: 3px;	
-display: center;
-justify-content: center;
-align-items: center; 	
+.botao a,
+.botao a:visited {
+    font: bold 12px/24px Source Sans Pro;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    background: #1675DD url('botao_link.gif') no-repeat center center;
+    width: 120px;
+    height: 40px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.botao a:hover { 
-  background: #1675DD url('botao_hover.gif') no-repeat 
-  center center;
-  color:#999;
+.botao a:hover {
+    background: #1675DD url('botao_hover.gif') no-repeat center center;
+    color: #999;
 }
 
-
-
-.texto {
+.text {
+    margin-top: 5px;
     font-family: Source Sans Pro;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+    flex-direction: column;
+}
 
-  .partedois {
+.partedois {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: white;
     width: 100%;
     height: 400px;
-  }
+}
 
-  .partetres {
-    background-color: #1675DD;
+.partetres {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #0040ff;
     width: 100%;
     height: 400px;
-  }
+}
 
-  .baixo {
-    background-color: #1675DD;
+.baixo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #0040ff;
     width: 100%;
-    height: 400px;
-  }
+    height: 250px;
+}
 
-  .links {
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: white;
     width: 100%;
     height: 400px;
-  }
+}
 
-  .footer {
-    background-color: black;
+.portfotos {
+    width: 100%;
+    height: 800px;
+    background-color: white;
+}
+
+.portfotoscentro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer {
+    font-size: 80%;
     width: 100%;
     height: 10px;
-  }
+    color: #999;
+    margin-bottom: 30px;
+}
 
+.imggroup1 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.imggroup2 {
+    display: flex;
+    justify-content: center;
+}
+
+.whitebutton {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.whitebutton a,
+.whitebutton a:visited {
+    font: bold 12px/24px Source Sans Pro;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #000000;
+    background: #ffffff url('botao_link.gif') no-repeat center center;
+    width: 120px;
+    height: 40px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.whitebutton a:hover {
+    background: #ffffff url('botao_hover.gif') no-repeat center center;
+    color: #999;
+}
+
+.textcolor {
+    color: #ffff00;
+}
+
+.container {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dentro {
+    font-family: Source Sans Pro;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textinho {
+    font-family: Source Sans Pro;
+    display: flex;
+    justify-content: center;
+}
+
+.imgzinha {
+    width: 100px;
+    height: 100px;
+}
+
+.titulo2 {
+    font-size: 300%;
+}
+
+.botaocor a:hover {
+    background: #6b6b47 url('botao_hover.gif') no-repeat center center !important;
+    color: #999 !important;
+}
+
+.horizontal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spacebutton {
+    margin-right: 25px;
+}
+
+.blackbutton {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blackbutton a,
+.blackbutton a:visited {
+    font: bold 12px/24px Source Sans Pro;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    background: #1f1f14 url('botao_link.gif') no-repeat center center;
+    width: 120px;
+    height: 40px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blackbutton a:hover {
+    background: #1f1f14 url('botao_hover.gif') no-repeat center center;
+    color: #999;
+}
+
+.textwhite {
+    color: #ffffff;
+    font-size: 180%;
+}
