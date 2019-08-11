@@ -284,3 +284,60 @@
     font-family: Anton;
     font-size: 110%
 }
+
+.foto1 {
+    color: white;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-family: Source Sans Pro;
+    background-image: url(./imagens/portfolio-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foto2 {
+    color: white;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-family: Source Sans Pro;
+    background-image: url(./imagens/portfolio-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foto3 {
+    color: white;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-family: Source Sans Pro;
+    background-image: url(./imagens/portfolio-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foto4 {
+    color: white;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-family: Source Sans Pro;
+    background-image: url(./imagens/portfolio-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.margin {
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
